@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/img/pata.png">
+    <title>SOS Bichinhos</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <ion-ion name="cafe"></ion-ion>SOS Bichinhos <img src="./assets/img/pata (3).png" width="25px"
+                height="25px"></a>
+        <nav class="nav">
+            <a href="./clientes.php">Início</a>
+            <a href="./resgastesc.html">Resgates</a>
+            <a href="./parceirasc.html">Parceiras</a>
+            <a href="./quem somosc.html">Quem somos?</a>
+            <a href="./index.php">Sair</a>
+
+        </nav>
+    </header>
+
+    <section class="homi">
+        <div class="content">
+        </div>
+        </div>
+
+    </section>
+
+    <section class="ong1">
+        <div class="content">
+            <h2>Bichos do Gueto</h2>
+            <br>
+            <div class="text">
+                <p>O "Projetos Bicho do Gueto" começou em 1990, quando Marcelo Vieira, ainda criança, resgatava e cuidava de animais feridos. Em 2003, ele já castrava até 40 animais por mês com apoio de simpatizantes. Em 2004, após ser despejado, Marcelo morou em um barraco na favela do Sapo com 19 animais, lidando com a superpopulação de animais na comunidade. Em 2010, um desabamento forçou sua saída da favela, mas uma corrente de solidariedade ajudou a comprar uma chácara em Mairiporã, onde ele continuou seu trabalho de resgate e castração com a ajuda de voluntários, mesmo sem transporte.</p>
+                <br>
+                <p>Telefone: +55 (11) 94848-3656 <br><a href="https://www.instagram.com/bichosdogueto/"><ion-icon name="logo-instagram"></ion-icon></a></p>
+
+            </div>
+        </div>
+        <div class="img">
+            <img src="./assets/img/bichosdogueto.png" height="500px" width="500px">
+        </div>
+    </section>
+
+    <section class="ong2">
+        <div class="content">
+            <h2>Adota Aqui</h2>
+            <br>
+            <div class="text">
+                <p>Fundada em 2023 por Gabriela Bodnar, a ONG "Adota Aqui" tem como missão conectar animais resgatados a famílias amorosas. Ela oferece pets castrados, vacinados, vermifugados, microchipados e tratados contra pulgas e carrapatos, com custos repassados ao adotante. O processo de adoção é rigoroso, incluindo entrevistas e evitando doações para áreas com alto índice de abandono. A ONG não realiza reservas ou entregas de animais, reforçando o compromisso com a seriedade da adoção. Se você quer adotar um amigo e fazer a diferença na vida de um animal resgatado, a "Adota Aqui" está à disposição para ajudar.</p>
+                <br>
+                <p>Telefone: +55 (11) 96761-4319  <br><a href="https://www.instagram.com/adota.aqui/"><ion-icon name="logo-instagram"></ion-icon></a></p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="./assets/img/adotaaqui.png" height="500px" width="500px" >
+        </div>
+    </section>
+   
+
+    <footer>
+        <div id="inside-footer">
+            <div class="left-footer">
+                <img src="assets/img/logoSOS.png" alt="Logo MLE Finance">
+                <p>Seu melhor amigo pode estar em um abrigo, esperando pela sua decisão de adotar.</p>
+            </div>
+            <div class="center-footer">
+                <div class="center-title footer-title">Links</div>
+                <div class="center-links">
+                    <a href="./clientes.php" behavior="smooth">Inicio</a>
+                    <a href="./resgastesc.html" behavior="smooth">Resgates</a>
+                    <a href="./parceirasc.html" behavior="smooth">Parceiras</a>
+                    <a href="./quem somosc.html" behavior="smooth">Quem somos?</a>
+                </div>
+            </div>
+            <div class="right-footer">
+                <div class="center-title footer-title">Fale Conosco</div>
+                <div class="right-list">
+                    sos.bichinhos2024@gmail.com
+                </div>
+            </div>
+        </div>
+        <div class="autorized">© <span>2024</span> SOS Bichinhos. Todos os direitos reservados.</div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+<style>
+    @import url(https://fonts.googleapis.com/css2?family=Poppins);
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 99;
+    }
+
+    .header .logo {
+        font-size: 1.7em;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .nav a {
+        position: relative;
+        font-size: 1.1em;
+        color: #fff;
+        text-decoration: none;
+        margin-left: 40px;
+    }
+
+    .nav a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        border-radius: 5px;
+        transform: scaleX(0);
+        transition: .5s;
+    }
+
+    .nav a:hover::after {
+        transform: scaleX(1);
+    }
+
+    .homi {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: url('./assets/img/dog2.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 80px 100px 0;
+    }
+
+
+
+
+    .ong1, .ong2 {
+        position: relative;
+        width: 100%;
+        height: 115vh;
+        background: linear-gradient(to bottom, #272729, #545457);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 80px 100px 0;
+    }
+
+     .content {
+        max-width: 500px;
+        color: #fff;
+        text-align: justify;
+    }
+
+     .img {
+        position: relative;
+        width: 440px;
+        margin-right: 150px;
+        margin-top: -35px;
+    }
+
+    img {
+        border-radius: 50%;
+    }
+
+    ion-icon{
+        color: #fff;    
+
+    }    
+
+    footer {
+        color: #fff;
+        width: 100%;
+        background-color: #272729;
+        border-top: 1px solid rgba(0, 0, 0, 0.331);
+    }
+
+    #inside-footer {
+        width: 100%;
+        max-width: 1300px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        padding: 50px;
+        margin: auto;
+    }
+
+    .left-footer>img {
+        display: block;
+        width: 150px;
+        margin: 0 auto 10px;
+        border-radius: 10px;
+    }
+
+    .left-footer>p {
+        opacity: .8;
+        text-align: center;
+    }
+
+    .footer-title {
+        text-align: center;
+        font-size: 1.1rem;
+        color: var(--first-color);
+        margin-bottom: 20px;
+    }
+
+    .center-links>a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        opacity: .8;
+        text-align: center;
+        transition: .3s;
+    }
+
+    .center-links>a:hover {
+        color: #000;
+    }
+
+    .right-list {
+        display: block;
+        opacity: .8;
+        text-align: center;
+    }
+
+    .autorized {
+        text-align: center;
+        opacity: .8;
+        padding: 30px;
+        border-top: 1px solid rgba(0, 0, 0, 0.100);
+    }
+
+    .autorized>span {
+        font-size: 1.1rem;
+        opacity: 1;
+        color: var(--second-color);
+        font-weight: 500;
+    }
+</style>
+
+</html>
